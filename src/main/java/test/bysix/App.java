@@ -41,7 +41,7 @@ public class App {
 
 
     private static void showUsage() {
-        System.out.println("Usage: java -cp {path to jar} {path to main} [ex1, ex2] {value}");
+        System.out.println("Usage: java -jar {path to jar} [ex1, ex2] {value}");
         System.out.println("For ex1, {value} must be a positive Integer");
         System.out.println("For ex2, {value} must be a String with a valid JSON with data");
         System.exit(-1);
